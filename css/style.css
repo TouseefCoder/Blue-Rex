@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+@font-face {
+  font-family: "Palatino Linotype";
+  src: url("/fonts/palatino-linotype-italic.ttf") format("truetype");
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background: url(../pics/header/header-bg.jpg);
+  background-size: cover;
+}
+
+header .navbar-nav .nav-item a {
+  color: white;
+}
+
+header .navbar-nav .nav-item a:hover {
+  text-decoration: none;
+  color: #f42267;
+}
+
+header .header .h2 {
+  font-family: "Palatino Linotype";
+  color: white;
+  font-style: italic;
+  font-weight: 200;
+}
+
+header .header .h1 {
+  color: white;
+  font-weight: 600;
+}
+
+.button .btn-pink {
+  background: #f42267;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+.button {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.btn-pink:hover {
+  box-shadow: 0 6px #c8375a;
+  transform: translateY(-10px);
+}
+
+.btn-pink:active {
+  background-color: #ff4d77;
+  box-shadow: 0 3px #c8375a;
+  transform: translateY(2px);
+}
+
+.button .btn-purple {
+  background: #763390;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+.section7 .btn-purple {
+  background: #763390;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+.btn-purple:hover {
+  box-shadow: 0 6px #a57ee9;
+  transform: translateY(-10px);
+}
+
+.btn-purple:active {
+  background-color: #763390;
+  box-shadow: 0 3px #a57ee9;
+  transform: translateY(2px);
+}
+
+.button .bton {
+  font-weight: 600;
+  color: #484848;
+  padding: 10px 20px;
+  margin-left: 5px;
+}
+
+.button .bton:hover {
+  background: #f42267;
+  text-decoration: none;
+  border-radius: 25px;
+  color: #ffffff;
+}
+
+.button .active-btn {
+  background: #f42267;
+  text-decoration: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  color: #ffffff;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.section1 {
+  background: url(../pics/all-pics/worldmap.png);
+  background-size: cover;
+}
+
+.color-lightblack {
+  color: #484848;
+}
+.section1 .h2 {
+  font-family: "Palatino Linotype";
+  color: #484848;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.section1 .h1 {
+  color: #484848;
+  font-weight: 600;
+}
+
+.bg-4b2d7f {
+  background: #4b2d7f;
+}
+
+.bg-40286a {
+  background: #40286a;
+}
+
+.section1 .row2 h1 {
+  color: white;
+  font-weight: 600;
+}
+
+.section1 .row2 h2 {
+  color: white;
+  font-weight: 600;
+}
+
+.section1 .row2 h3 {
+  font-weight: 600;
+}
+
+.section2 {
+  background: url(../pics/all-pics/main-bg.jpg);
+  background-size: cover;
+}
+
+.section2 h2 {
+  font-family: "Palatino Linotype";
+  color: #ffffff;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.section2 h1 {
+  color: white;
+  font-weight: 600;
+}
+
+.section3 h2 {
+  font-family: "Palatino Linotype";
+  color: #484848;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.section3 h1 {
+  color: #484848;
+  font-weight: 600;
+}
+
+.section4 {
+  background: #f1f1f1;
+}
+
+.section4 .color-333333 {
+  color: #333333;
+}
+
+.section5 {
+  background: #4b2d7f;
+}
+
+.section6 {
+  background: url(../pics/client-img/client-bg-first.jpg);
+  background-size: cover;
+}
+
+.section6 h2 {
+  font-family: "Palatino Linotype";
+  color: #ffffff;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.section7 {
+  background: url(../pics/client-img/client-bg-scnd.jpg);
+  background-size: cover;
+}
+
+.section7 .input {
+  padding: 10px 20px;
+  border: none;
+  background: #f66f9b;
+  color: white;
+}
+
+.section7 .input::placeholder {
+  color: white;
+}
+
+.section7 .input:focus {
+  border-color: white;
+  border: 1px solid white;
+}
+
+.section7 .form {
+  width: 70%;
+  margin: auto;
+}
+
+.section8 {
+  background: #4b2d7f;
+}
+
+footer .footer {
+  background: url(../pics/all-pics/worldmap.png);
+  background-size: cover;
+}
+
+footer .footer h3 {
+  color: #4b2d7f;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+footer .footer ul li {
+  color: #484848;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+}
+
+footer .footer .container-fluid {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer .footer .container-fluid .row .col h4 {
+  color: #171717;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.bg-40286a {
+  background-color: rgba(52, 32, 87, 0.9);
+}
+
+.bg-4b2d7f {
+  background-color: rgba(75, 45, 127, 0.9);
+}
